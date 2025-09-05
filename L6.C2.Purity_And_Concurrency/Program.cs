@@ -87,4 +87,10 @@ atomic operation, and because there’s no locking in place, we’ll lose some o
     If you test this approach with a large enough input list, you’ll get a result like this:
 Expected string length 20 but was 19. Strings differ at index 0.
     Expected: "1000000. Item1000000"
-But was:  "956883*/
+    But was:  "956883*/
+
+Enumerable.Zip(
+    new[] {1, 2, 3},
+    new[] {"ichi", "ni", "san"},
+    (number, name) => $"In Japanese, {number} is: {name}");
+    
