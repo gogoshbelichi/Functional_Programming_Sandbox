@@ -1,9 +1,15 @@
 namespace L6.C2.Validation_Scenario;
                                  // better for tests to make predictable behaviour
-public class DateNotPastValidator(IDateTimeService clock) : IValidator<MakeTransfer> 
+public class DateNotPastValidator(IDateTimeService clock /*DateTime today*/) : IValidator<MakeTransfer> 
 {
     public bool IsValid(MakeTransfer request)
-        => clock.UtcNow.Date <= request.Date.Date;
+        => clock.UtcNow.Date /*today*/ <= request.Date.Date;
+    /*
+        Instead of injecting an interface, exposing some method you can invoke, inject a
+        value. Now the implementation of IsValid is pure (because today is not mutable)
+        
+        But I left first impl cause of laziness to make changes in a couple of lines, sorry :(
+    */
 }
 
 /*Let’s look at the refactored IsValid method: is it a pure function? Well, the answer is,
