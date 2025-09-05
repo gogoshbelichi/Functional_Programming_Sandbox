@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6.C2.Validation_Scenario.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.C2.Exercise.Body_Mass_Index", "L7.C2.Exercise.Body_Mass_Index\L7.C2.Exercise.Body_Mass_Index.csproj", "{A6940DFD-116C-41FF-8D24-8B23996C103A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.C2.Exercise.Body_Mass_Index.Tests", "L7.C2.Exercise.Body_Mass_Index.Tests\L7.C2.Exercise.Body_Mass_Index.Tests.csproj", "{A61F776C-2694-46C0-AAD6-543EED3450D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{A6940DFD-116C-41FF-8D24-8B23996C103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6940DFD-116C-41FF-8D24-8B23996C103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6940DFD-116C-41FF-8D24-8B23996C103A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
