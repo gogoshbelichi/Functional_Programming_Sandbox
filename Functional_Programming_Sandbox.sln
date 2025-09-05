@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.Introduction", "L1.Introduction\L1.Introduction.csproj", "{8EC6148D-1A1E-4057-8EF7-2764045C354F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.Representing_Functions", " Representing_Functions\L2.Representing_Functions.csproj", "{5D9D1704-0294-472D-92DA-6B9FBCAA3DE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.Representing_Functions", "L2.Representing_Functions\L2.Representing_Functions.csproj", "{5D9D1704-0294-472D-92DA-6B9FBCAA3DE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3.Higher_Order_Functions", "L3.Higher_Order_Functions\L3.Higher_Order_Functions.csproj", "{65CE3F2E-EEDE-4685-9364-2B6D25A8F880}"
 EndProject
