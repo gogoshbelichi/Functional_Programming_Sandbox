@@ -18,7 +18,7 @@ public class DateNotPastValidatorTest
     }
     
     [Fact]
-    public void WhenTransferDateIsPast_ThenValidationSucceeds()
+    public void WhenTransferDateIsNotInPast_ThenValidationSucceeds()
     {
         var sut = new DateNotPastValidator(new FakeDateTimeService()); 
         var cmd = new MakeTransfer { Date = presentDate.AddDays(1) };
