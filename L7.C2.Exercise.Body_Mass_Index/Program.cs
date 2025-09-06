@@ -12,4 +12,6 @@ away the reading from and writing to the console.
 
 using L7.C2.Exercise.Body_Mass_Index;
 
-new BodyMassIndexApp().Run();
+var app = new BodyMassIndexApp();
+
+app.Run();
