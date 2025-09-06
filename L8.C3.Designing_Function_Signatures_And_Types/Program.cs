@@ -1,0 +1,87 @@
+﻿#region Arrow notation
+
+// Arrow notation f : int => string
+/*
+ Function signature                              C# type                                  Example
+   int => string                              Func<int, string>                      (int i) => i.ToString()
+   () => string                               Func<string>                           () => "hello"
+   int => ()                                  Action<int>                            (int i) => WriteLine($"gimme {i}")
+   () => ()                                   Action                                 () => WriteLine("Hello World!")
+   (int, int) => int                          Func<int, int, int>                    (int a, int b) => a + b
+*/
+
+
+
+Console.WriteLine(CalculateRiskProfile(new Age(30))); // => Low 
+Console.WriteLine(CalculateRiskProfile(new Age(70))); // => Medium
+Console.WriteLine(CalculateRiskProfile(new Age(-10))); // => Exception
+
+Risk CalculateRiskProfile(dynamic age)
+    => (age < 60) ? Risk.Low : Risk.Medium;
+
+enum Risk { Low, Medium, High }
+
+public class Age
+{ 
+    private int Value { get; } 
+    /*The internal representation
+    is kept private.*/
+    
+    public static bool operator <(Age l, Age r) 
+        => l.Value < r.Value;
+    public static bool operator >(Age l, Age r)
+        => l.Value > r.Value;
+    public static bool operator <(Age l, int r) 
+        => l < new Age(r);
+    public static bool operator >(Age l, int r)
+        => l > new Age(r);
+    
+    // dishonest constructor
+    public Age(int value)
+    {
+        if (!IsValid(value))
+            throw new ArgumentException($"{value} is not a valid age");
+        Value = value;
+    }
+    private static bool IsValid(int age)
+        => 
+            0 <= age && age < 120;
+}
+
+#endregion
+
+#region Writing “honest” functions
+
+/*
+  That means this function is “dishonest”—what it really should say is “Give me an int, and
+    I may return a Risk, or I may throw an exception instead.”
+    
+  In summary, a function is honest if its behavior can be predicted by its signature: it
+    returns a value of the declared type; no throwing exceptions, and no null return values.
+*/
+
+enum Gender { Female, Male }
+// Composing values with tuples and objects
+class RiskV2 // wrapped as long as I don't want to move it to top-level statements
+{
+    Risk CalculateRiskProfileV2(Age age, Gender gender)
+    {
+        var threshold = (gender == Gender.Female) ? 62 : 60;
+        return (age < threshold) ? Risk.Low : Risk.Medium;
+    }
+}
+
+class HealthData
+{
+    public Age Age { get; set; }
+    public Gender Gender { get; set; }
+}
+
+/*
+  Counting the number of possible instances
+     can bring clarity. Once you have control over these simple values,
+     it’s easy to aggregate them into more complex data objects.
+  Now let’s move on to the simplest value of all: the empty tuple, or Unit.
+*/
+
+#endregion

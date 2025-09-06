@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.C2.Exercise.Body_Mass_In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7.C2.Exercise.Body_Mass_Index.Tests", "L7.C2.Exercise.Body_Mass_Index.Tests\L7.C2.Exercise.Body_Mass_Index.Tests.csproj", "{A61F776C-2694-46C0-AAD6-543EED3450D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8.C3.Designing_Function_Signatures_And_Types", "L8.C3.Designing_Function_Signatures_And_Types\L8.C3.Designing_Function_Signatures_And_Types.csproj", "{C8DC548A-463E-46D4-A780-877A7D63106A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L9.C3.Modeling_Abscence_of_Data_with_Unit", "L9.C3.Modeling_Abscence_of_Data_with_Unit\L9.C3.Modeling_Abscence_of_Data_with_Unit.csproj", "{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +70,13 @@ Global
 		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A61F776C-2694-46C0-AAD6-543EED3450D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DC548A-463E-46D4-A780-877A7D63106A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DC548A-463E-46D4-A780-877A7D63106A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DC548A-463E-46D4-A780-877A7D63106A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DC548A-463E-46D4-A780-877A7D63106A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
