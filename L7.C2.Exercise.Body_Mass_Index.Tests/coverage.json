@@ -1,0 +1,250 @@
+{
+  "L7.C2.Exercise.Body_Mass_Index.dll": {
+    "D:\\Projects\\RaiderProjects\\Functional_Programming_Sandbox\\L7.C2.Exercise.Body_Mass_Index\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\RaiderProjects\\Functional_Programming_Sandbox\\L7.C2.Exercise.Body_Mass_Index\\Body.cs": {
+      "L7.C2.Exercise.Body_Mass_Index.Body": {
+        "System.Double L7.C2.Exercise.Body_Mass_Index.Body::get_Mass()": {
+          "Lines": {
+            "13": 14
+          },
+          "Branches": []
+        },
+        "System.Double L7.C2.Exercise.Body_Mass_Index.Body::get_Height()": {
+          "Lines": {
+            "18": 14
+          },
+          "Branches": []
+        },
+        "System.Void L7.C2.Exercise.Body_Mass_Index.Body::.ctor(System.Double,System.Double)": {
+          "Lines": {
+            "8": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\RaiderProjects\\Functional_Programming_Sandbox\\L7.C2.Exercise.Body_Mass_Index\\BodyMassIndex.cs": {
+      "L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp": {
+        "System.Void L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::Run()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 65,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 119,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 119,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Func`2<System.String,System.Double> L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::get_Read()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Func`2<L7.C2.Exercise.Body_Mass_Index.Body,System.Boolean> L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::get_Write()": {
+          "Lines": {
+            "32": 7,
+            "33": 7,
+            "34": 7,
+            "35": 7,
+            "36": 7,
+            "37": 7,
+            "38": 7,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 7,
+            "44": 14
+          },
+          "Branches": []
+        },
+        "System.Func`2<System.Double,System.String> L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::get_MassIndexCategory()": {
+          "Lines": {
+            "46": 28,
+            "47": 28,
+            "48": 4,
+            "49": 3,
+            "50": 3,
+            "51": 4,
+            "52": 28
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 11
+            },
+            {
+              "Line": 46,
+              "Offset": 6,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 18
+            },
+            {
+              "Line": 46,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 10
+            },
+            {
+              "Line": 46,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 7
+            },
+            {
+              "Line": 46,
+              "Offset": 38,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 46,
+              "Offset": 50,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 46,
+              "Offset": 26,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 46,
+              "Offset": 50,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Func`3<System.Double,System.Double,System.Double> L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::get_MassIndex()": {
+          "Lines": {
+            "57": 11,
+            "58": 11,
+            "59": 11,
+            "60": 11,
+            "61": 22
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 6,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Double L7.C2.Exercise.Body_Mass_Index.BodyMassIndexApp::<get_Read>b__2_0(System.String)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 37,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
