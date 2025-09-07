@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8.C3.Designing_Function_Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L9.C3.Modeling_Abscence_of_Data_with_Unit", "L9.C3.Modeling_Abscence_of_Data_with_Unit\L9.C3.Modeling_Abscence_of_Data_with_Unit.csproj", "{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L10.C3.Modeling_Abscence_of_Data_with_Option", "L10.C3.Modeling_Abscence_of_Data_with_Option\L10.C3.Modeling_Abscence_of_Data_with_Option.csproj", "{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FE36EEA-7EB6-4DBD-B64A-9A0A77BB1994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
