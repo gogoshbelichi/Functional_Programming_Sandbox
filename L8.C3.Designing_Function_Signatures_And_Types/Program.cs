@@ -19,7 +19,7 @@ Console.WriteLine(CalculateRiskProfile(new Age(-10))); // => Exception
 Risk CalculateRiskProfile(dynamic age)
     => (age < 60) ? Risk.Low : Risk.Medium;
 
-enum Risk { Low, Medium, High }
+public enum Risk { Low, Medium, High }
 
 public class Age
 { 
@@ -60,11 +60,11 @@ public class Age
     returns a value of the declared type; no throwing exceptions, and no null return values.
 */
 
-enum Gender { Female, Male }
+public enum Gender { Female, Male }
 // Composing values with tuples and objects
-class RiskV2 // wrapped as long as I don't want to move it to top-level statements
+public class RiskV2 // wrapped as long as I don't want to move it to top-level statements
 {
-    Risk CalculateRiskProfileV2(Age age, Gender gender)
+    public Risk CalculateRiskProfileV2(Age age, Gender gender)
     {
         var threshold = (gender == Gender.Female) ? 62 : 60;
         return (age < threshold) ? Risk.Low : Risk.Medium;
