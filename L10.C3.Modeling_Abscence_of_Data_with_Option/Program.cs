@@ -10,7 +10,7 @@ Option<T> = None | Some(T) */
 using Option;
 
 Option<string> firstName = new Some<string>("Enrico");
-Option<string> middleName = new None();
+Option<string> middleName = None.Default;
 
 Console.WriteLine(Greet(firstName)); // => "Sorry, who?"  
 Console.WriteLine(Greet(middleName)); // => "Hello, John
@@ -33,7 +33,7 @@ Console.WriteLine(
     )
 );
 Console.WriteLine(z.Match(
-        none: () => "no blue",
+        none: () => "no red",
         some: (color) => color.ToUpper()
     )
 );

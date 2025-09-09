@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmarks-20250909-131324</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.2, Windows 11 (10.0.26100.4946/24H2/2024Update/HudsonValley)
+Unknown processor
+.NET SDK 9.0.304
+  [Host]     : .NET 9.0.8 (9.0.825.36511), X64 AOT AVX2
+  DefaultJob : .NET 9.0.8 (9.0.825.36511), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method     </th><th>Mean  </th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>EmptyListTryCatch</td><td>3,078.975 ns</td><td>55.8752 ns</td><td>52.2657 ns</td><td>0.0458</td><td>384 B</td>
+</tr><tr><td>ListTryCatch</td><td>17.945 ns</td><td>0.1288 ns</td><td>0.1076 ns</td><td>0.0076</td><td>64 B</td>
+</tr><tr><td>EmptyListForeach</td><td>7.301 ns</td><td>0.1746 ns</td><td>0.1633 ns</td><td>0.0076</td><td>64 B</td>
+</tr><tr><td>ListForeach</td><td>59.459 ns</td><td>0.3312 ns</td><td>0.2936 ns</td><td>0.0124</td><td>104 B</td>
+</tr></tbody></table>
+</body>
+</html>

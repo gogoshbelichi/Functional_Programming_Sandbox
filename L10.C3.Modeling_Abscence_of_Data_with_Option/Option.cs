@@ -3,11 +3,11 @@ using Option;
 public struct Option<T> 
 {
     bool isSome { get; }
-    T value { get; }
+    T Value { get; }
     private Option(T value)
     {
         this.isSome = true;
-        this.value = value;
+        this.Value = value;
     }
     
     public static implicit operator Option<T>(None _)
@@ -17,18 +17,15 @@ public struct Option<T>
         => new(some.Value);
     
     public static implicit operator Option<T>(T value) 
-        => value == null ? new None() : new Some<T>(value);
+        => value == null ? None.Default : new Some<T>(value);
     
     public R Match<R>(Func<R> none, Func<T, R> some) 
-        => isSome ? some(value) : none();
+        => isSome ? some(Value) : none();
 }
 
 public static class OptionExtension
 {
     public static Option<T> Lookup<K, T>(this IDictionary<K, T> dict, K key)
-    {
-        T value;
-        return dict.TryGetValue(key, out value)
-            ? new Some<T>(value) : new None();
-    }
+        => dict.TryGetValue(key, out var value)
+            ? new Some<T>(value) : None.Default;
 }

@@ -1,0 +1,13 @@
+// Validating benchmarks:
+//    * Assembly L11.C3.Exercises.Benchmarks which defines benchmarks references non-optimized L10.C3.Modeling_Abscence_of_Data_with_Option
+	If you own this dependency, please, build it in RELEASE.
+	If you don't, you can disable this policy by using 'config.WithOptions(ConfigOptions.DisableOptimizationsValidator)'.
+
+//    * Assembly L11.C3.Exercises.Benchmarks which defines benchmarks references non-optimized L11.C3.Execises
+	If you own this dependency, please, build it in RELEASE.
+	If you don't, you can disable this policy by using 'config.WithOptions(ConfigOptions.DisableOptimizationsValidator)'.
+
+//    * Assembly L11.C3.Exercises.Benchmarks which defines benchmarks is non-optimized
+Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+If you want to debug the benchmarks, please see https://benchmarkdotnet.org/articles/guides/troubleshooting.html#debugging-benchmarks.
+

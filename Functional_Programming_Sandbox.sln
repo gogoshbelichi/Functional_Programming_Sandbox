@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L9.C3.Modeling_Abscence_of_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L10.C3.Modeling_Abscence_of_Data_with_Option", "L10.C3.Modeling_Abscence_of_Data_with_Option\L10.C3.Modeling_Abscence_of_Data_with_Option.csproj", "{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11.C3.Execises", "L11.C3.Execises\L11.C3.Execises.csproj", "{A6B75FBC-CCE0-4644-8269-F15803F8FD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11.C3.Exercises.Benchmarks", "L11.C3.Exercises.Benchmarks\L11.C3.Exercises.Benchmarks.csproj", "{2AE6ACFF-EB37-4303-ACC7-428A5D0CA08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B0D6232-EBA6-4B63-946B-CC5DB2413C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B75FBC-CCE0-4644-8269-F15803F8FD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B75FBC-CCE0-4644-8269-F15803F8FD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B75FBC-CCE0-4644-8269-F15803F8FD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B75FBC-CCE0-4644-8269-F15803F8FD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE6ACFF-EB37-4303-ACC7-428A5D0CA08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE6ACFF-EB37-4303-ACC7-428A5D0CA08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE6ACFF-EB37-4303-ACC7-428A5D0CA08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE6ACFF-EB37-4303-ACC7-428A5D0CA08D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

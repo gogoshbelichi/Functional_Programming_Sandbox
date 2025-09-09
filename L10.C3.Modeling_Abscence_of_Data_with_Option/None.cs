@@ -7,5 +7,5 @@ public struct None // p.70 tell us that...
     // assigned, but this isn’t supported by C#’s type system.
 {
     /* None has no members because it contains no data.*/
-    internal static readonly None Default = new();
+    public static readonly None Default = new();
 }
