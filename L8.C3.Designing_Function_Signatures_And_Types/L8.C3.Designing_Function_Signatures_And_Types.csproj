@@ -9,4 +9,8 @@
         <InvariantGlobalization>true</InvariantGlobalization>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\L10.C3.Modeling_Abscence_of_Data_with_Option\L10.C3.Modeling_Abscence_of_Data_with_Option.csproj" />
+    </ItemGroup>
+
 </Project>

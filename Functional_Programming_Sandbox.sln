@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11.C3.Exercises.Benchmarks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L12.C4.Patterns_in_FP", "L12.C4.Patterns_in_FP\L12.C4.Patterns_in_FP.csproj", "{88763236-142A-4315-A1A5-82B320FD0B53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L13.C4.Functors", "L13.C4.Functors\L13.C4.Functors.csproj", "{AA6E7A80-CED8-4DB5-8F85-41785AC5EB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{88763236-142A-4315-A1A5-82B320FD0B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88763236-142A-4315-A1A5-82B320FD0B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88763236-142A-4315-A1A5-82B320FD0B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6E7A80-CED8-4DB5-8F85-41785AC5EB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6E7A80-CED8-4DB5-8F85-41785AC5EB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6E7A80-CED8-4DB5-8F85-41785AC5EB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6E7A80-CED8-4DB5-8F85-41785AC5EB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

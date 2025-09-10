@@ -2,11 +2,11 @@ using Option;
 
 public struct Option<T> 
 {
-    bool isSome { get; }
+    bool IsSome { get; }
     T Value { get; }
     private Option(T value)
     {
-        this.isSome = true;
+        this.IsSome = true;
         this.Value = value;
     }
     
@@ -20,12 +20,22 @@ public struct Option<T>
         => value == null ? None.Default : new Some<T>(value);
     
     public R Match<R>(Func<R> none, Func<T, R> some) 
-        => isSome ? some(Value) : none();
+        => IsSome ? some(Value) : none();
+    
+    // Chapter 4 addition
+    public IEnumerable<T> AsEnumerable()
+    {
+        if (IsSome) yield return Value;
+    }
 }
 
-public static class OptionExtension
+public static class OptionExtensions
 {
     public static Option<T> Lookup<K, T>(this IDictionary<K, T> dict, K key)
         => dict.TryGetValue(key, out var value)
             ? new Some<T>(value) : None.Default;
+    
+    public static Option<T> ToOption<T>
+        (this Some<T> some) 
+        => some.Value;
 }

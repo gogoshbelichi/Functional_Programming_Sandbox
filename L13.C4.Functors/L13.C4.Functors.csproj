@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+        <InvariantGlobalization>true</InvariantGlobalization>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\L1.Introduction\L1.Introduction.csproj" />
+      <ProjectReference Include="..\L10.C3.Modeling_Abscence_of_Data_with_Option\L10.C3.Modeling_Abscence_of_Data_with_Option.csproj" />
+      <ProjectReference Include="..\L12.C4.Patterns_in_FP\L12.C4.Patterns_in_FP.csproj" />
+      <ProjectReference Include="..\L2.Representing_Functions\L2.Representing_Functions.csproj" />
+      <ProjectReference Include="..\L3.Higher_Order_Functions\L3.Higher_Order_Functions.csproj" />
+      <ProjectReference Include="..\L4.Avoiding_Duplication\L4.Avoiding_Duplication.csproj" />
+      <ProjectReference Include="..\L5.C2.Function_Purity\L5.C2.Function_Purity.csproj" />
+      <ProjectReference Include="..\L6.C2.Purity_And_Concurrency\L6.C2.Purity_And_Concurrency.csproj" />
+      <ProjectReference Include="..\L6.C2.Validation_Scenario.Tests\L6.C2.Validation_Scenario.Tests.csproj" />
+      <ProjectReference Include="..\L6.C2.Validation_Scenario\L6.C2.Validation_Scenario.csproj" />
+      <ProjectReference Include="..\L9.C3.Modeling_Abscence_of_Data_with_Unit\L9.C3.Modeling_Abscence_of_Data_with_Unit.csproj" />
+    </ItemGroup>
+
+</Project>
