@@ -147,3 +147,30 @@ static string Prompt(string prompt)
     return ReadLine() ?? Prompt(prompt);
 }
 
+/*
+    Regular values → default values as:
+        int x = 5;
+        string s = "hi";
+        Customer c = new Customer();
+
+    They exist "on their own", without an additional wrapper.
+
+    Elevated values → are values in the context (wrapper) that
+        belong to some kind of functor or monad. That is, instead
+        of T, we have A<T>, where A is a "container" (a functor,
+        a monadic context, etc.):
+
+    Option<T> → value may be Some(T), или None.
+    IEnumerable<T> → multiple values, not just one.
+    Task<T> → a value that will be calculated in the future.
+    Either<L, T> → a value can be either an error (L) or a success (T).
+    
+    Here, “elevated” values imply an abstraction of the corresponding regular types.
+    
+    Option adds the effect of optionality effect—not a T, but the possibility of a T.
+      IEnumerable adds the effect of aggregation effect—not a T or two, but a sequence of T’s.
+      Func adds the effect of laziness effect—not a T, but a computation that can be eval
+    uated to obtain a T.
+      Task adds the effect of asynchrony—not a T, but a promise that at some point
+     you’ll get a T.
+*/
