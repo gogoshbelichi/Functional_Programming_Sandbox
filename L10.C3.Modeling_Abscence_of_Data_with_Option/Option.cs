@@ -1,9 +1,9 @@
 using Option;
 
-public readonly struct Option<T> 
+public readonly record struct Option<T> 
 {
-    bool IsSome { get; }
-    T Value { get; }
+    private bool IsSome { get; }
+    private T Value { get; }
     private Option(T value)
     {
         this.IsSome = true;
