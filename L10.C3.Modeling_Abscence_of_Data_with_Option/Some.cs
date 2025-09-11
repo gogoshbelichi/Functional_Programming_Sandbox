@@ -1,6 +1,6 @@
 namespace Option;
 /*The Some function wraps the given value into a Some. */
-public struct Some<T> /*: IOption<T>*/
+public readonly struct Some<T> /*: IOption<T>*/
 {
     /*Some simply wraps a value.*/
     public T Value { get; } 

@@ -1,6 +1,6 @@
 using Option;
 
-public struct Option<T> 
+public readonly struct Option<T> 
 {
     bool IsSome { get; }
     T Value { get; }
